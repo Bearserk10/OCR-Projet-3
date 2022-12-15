@@ -1,0 +1,22 @@
+{
+  "name": "ocr-projet-3-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css --style compressed",
+    "prefix": "postcss ./css/style.css --use autoprefixer -d ./css/prefixed/"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bearserk10/OCR-Projet-3.git"
+  },
+  "author": "Bearserk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bearserk10/OCR-Projet-3/issues"
+  },
+  "homepage": "https://github.com/Bearserk10/OCR-Projet-3#readme",
+  "browserslist": "last 4 versions"
+}
