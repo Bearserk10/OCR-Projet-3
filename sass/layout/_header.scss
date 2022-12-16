@@ -1,0 +1,25 @@
+
+
+.accueil__header{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+            &__logo{
+                margin-left: 30%;
+            }
+            
+}
+
+.accueil__header__localisation{
+    background-color: darken($color_fond,5);
+    width: 100%;
+}
+.section__accueil1{
+    background-color: $color_fond;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
