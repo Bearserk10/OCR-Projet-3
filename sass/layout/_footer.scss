@@ -1,0 +1,25 @@
+.footer{
+    background-color: darken($color_fond, 72);
+    &_logo{
+    width: 125px;
+    filter:invert(100%);
+    margin: 20px 0 0 20px;
+    }  
+    &_texte{
+        
+        margin-left :10px; 
+        &--align{
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+            margin-bottom: -20px;
+        } 
+        &_bas{
+            margin-left: 20px;
+        }
+    }
+
+}
+.footer_texte_align{
+    margin: 0 0 -15px 5px;
+}

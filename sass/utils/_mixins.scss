@@ -1,0 +1,7 @@
+@mixin dégrader-rv-biet{
+    background: linear-gradient(to bottom right,$color_secondaire ,$color_primaire);
+}
+
+@mixin align_card_accueil{
+    margin: 15px 0 0 5%;
+}

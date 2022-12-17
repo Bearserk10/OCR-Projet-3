@@ -1,25 +1,26 @@
-
-
 .accueil__header{
     display: flex;
     flex-direction: column;
-    width: auto;
-            &__logo{
-                margin-left: 30%;
-            }
-            
-}
-
-.accueil__header__localisation{
-    background-color: darken($color_fond,5);
-    width: 100%;
-}
-.section__accueil1{
-    background-color: $color_fond;
-    justify-content: center;
     align-items: center;
+    text-align: center;
+    width: 100%; 
+    margin: auto;
+    &__logo{
+        width: 60%;
+        margin: 20px 0 15px 0;
+    }
+    &__localisation{
+    background-color: darken($color_fond,5);
+    width: 100%; 
     display: flex;
-    flex-direction: column;
+    align-items: center;   
+    justify-content:center;
+        &--txt{
+            margin-left: 10px;
+            font-weight: 500;
+
+        }    
+    }        
 }
 
 

@@ -1,0 +1,116 @@
+.section__accueil1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+    &_h2{
+        margin: 20px 0 -15px 0;
+    }
+    &_btn{
+        color: #FFFFFF;
+        border-radius: 30px;
+        padding: 15px;
+        margin-bottom: 50px;
+        border-color: $color_fond;
+        box-decoration-break: none;
+        @include dégrader-rv-biet;
+        box-shadow: 5px 5px 10px 1px rgba(0, 0, 255, .2);
+        &--txt{
+            margin: 0 5px 0 5px;
+        }
+    }
+}
+
+
+.section__accueil1{
+    background-color: $color_fond;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.section__accueil2{
+    display: flex;
+    flex-direction: column;
+    &_h2{
+        margin: 50px 0 20px 10px;
+
+    }
+    &_direction{
+        display: flex;
+        flex-direction: column;
+    }
+    &_btn{
+        display: flex;
+        margin-left: 7%;
+        margin-bottom: 20px;
+        width: 85%;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px 1px rgba(0, 0, 255, .2);
+        border-color: #FFFFFF;
+        &--align{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        }
+        &_Nbronnd{
+        padding: 6px 10px;
+        @include dégrader-rv-biet ;
+        margin-left: -20px;
+        border-radius: 15px;
+        color: #FFFFFF;
+        margin-right: 20px;
+        }
+        &_texte{
+            margin-left: 15px;
+        }
+        
+    }
+
+}
+
+.Article__accueil{
+    display: flex;
+    background-color: $color_fond;
+    flex-direction: column;
+    padding-bottom: 50px;
+    &--h2{
+        margin: 40px 0 10px 5%;
+    }
+    &_card{
+        width: auto;
+        height: 240px;
+        max-width: 90%;
+        min-width: 89%;
+        overflow: hidden;
+        background-color: #FFFFFF;
+        border-radius:10px; 
+        @include align_card_accueil;
+        &__coeur{
+            float: right;
+            margin: -30px 20px 0 0;
+            font-size: 20px;
+        }
+        &--img{
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        &_texte{
+            &--haut{
+                margin: 10px 0 0 10px;
+            }
+            &--bas{
+                margin: 0 0 0 10px;
+            }
+        }
+        
+
+    }
+}

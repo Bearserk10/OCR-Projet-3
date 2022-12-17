@@ -2,70 +2,75 @@
 <html lang="fr">
    <head>
         <meta charset="UTF-8">
-        <title>ohmyfood</title>
+        <title>ohmyfood!</title>
         <script src="https://kit.fontawesome.com/9483ee19d8.js" crossorigin="anonymous"></script>
-        <link rel ="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;
+        0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel ="stylesheet" href="./css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     
     <body>
-        <header>
-        <div class="logo"><img src="images/logo/ohmyfood.png"/></div>
-        <div class="localisation"><i class="fa-solid fa-location-dot"></i><p>Paris, Belleville</p></div>    
+        <header class="accueil__header">
+        <div><img class="accueil__header__logo" src="images/logo/ohmyfood.png"/></div>
+        <div class="accueil__header__localisation"><i id="accueil__header__localisation--dot" class="fa-solid fa-location-dot"></i>
+            <p class="accueil__header__localisation--txt">Paris, Belleville</p></div>    
         </header>
         <section class="section__accueil1">
             <h2 class="section__accueil1_h2">Réservez le menu qui vous convient</h2>
-            <h4 class="section__accueil1_h4">Découvrez des restaurantt d'exeption selectionnés par nos soins</h4>
-            <button class="section__accueil1_btn">Explorer nos restaurants</button>
+            <h4 class="section__accueil1_h4">Découvrez des restaurants d'exception selectionnés par nos soins</h4>
+            <button class="section__accueil1_btn"><p class="section__accueil1_btn--txt">Explorer nos restaurants</p></button>
         </section>
         <section class="section__accueil2">
             <h2 class="section__accueil2_h2">Fontionnement</h2>
-            <div>
-                <button class="section__accueil2_btn"><p class="section__accueil2_Nbronnd">1</p>
-                    <i class="fa-solid fa-mobile-screen-button"></i><p class="section__accueil2_texte">Choisissez un restaurant</p></button>
+            <div class="section__accueil2_direction">
+                <button class="section__accueil2_btn"><p class="section__accueil2_btn_Nbronnd">1</p>
+                    <div class="section__accueil2_btn--align"><i class="fa-solid fa-mobile-screen-button"></i><p class="section__accueil2_btn_texte">Choisissez un restaurant</p></div></button>
                 
-                <button class="section__accueil2_btn"><p class="section__accueil2_Nbronnd">2</p>
-                    <i class="fa-solid fa-list-ul"></i><p class="section__accueil2_texte">Composez votre menu</p></button>
+                    <button class="section__accueil2_btn"><p class="section__accueil2_btn_Nbronnd">1</p>
+                        <div class="section__accueil2_btn--align"><i class="fa-solid fa-mobile-screen-button"></i><p class="section__accueil2_btn_texte">Choisissez un restaurant</p></div></button>
                 
-                <button class="section_accueil2_btn"><p class="section_accueil2_Nbronnd">3</p>
-                    <i class="fa-solid fa-store"></i><p class="section__accueil2_texte">Dégustez au restaurant</p></button>
+                        <button class="section__accueil2_btn"><p class="section__accueil2_btn_Nbronnd">1</p>
+                            <div class="section__accueil2_btn--align"><i class="fa-solid fa-mobile-screen-button"></i><p class="section__accueil2_btn_texte">Choisissez un restaurant</p></div></button>
             </div>
 
         </section>
 
         <article class="Article__accueil">
             <h2 class="Article__accueil--h2">Restaurants</h2>
-            <div class="Article__accueil_card"></div><a href="Menu- La palette du goût.html"> <img class="Article__accueil_card--img" src="images/restaurants/Palette.jpg"/>
+            <div class="Article__accueil_card"><a class="texte_decoration" href="./menu/Menu- La palette du goût.html"> <img class="Article__accueil_card--img" src="images/restaurants/Palette.jpg"/>
                 <P class="Article__accueil_card_texte--haut">La palette du gout</P>
-                <p class="Article__accueil_card_texte--bas">Ménilmontant</p>
-                <div class="Article_accueil_card--coeur"><i class="fa-regular fa-heart"></i></div>
-            </a></div>
+                <p class="Article__accueil_card_texte--bas">Ménilmontant</p></a>
+                <div class="Article__accueil_card__coeur"><i class="fa-regular fa-heart"></i></div></div>
+            </div>
             
-            <div class="Article__accueil_card"></div><a href="Menu- La not enchanté.html"> <img class="Article__accueil_card--img" src="images/restaurants/Enchantée.jpg"/>
+            <div class="Article__accueil_card"><a class="texte_decoration" href="./menu/Menu- La not enchanté.html"> <img class="Article__accueil_card--img" src="images/restaurants/Enchantée.jpg"/>
                 <P class="Article__accueil_card_texte--haut">La palette du gout</P>
-                <p class="Article__accueil_card_texte--bas">Ménilmontant</p>
-                <div class="Article_accueil_card--coeur"><i class="fa-regular fa-heart"></i></div>
-            </a></div>
+                <p class="Article__accueil_card_texte--bas">Ménilmontant</p></a>
+                <div class="Article__accueil_card__coeur"><i class="fa-regular fa-heart"></i></div></div>
+            </div>
             
-            <div class="Article__accueil_card"></div><a href="Menu- a la Francaise.html"> <img class="Article__accueil_card--img" src="images/restaurants/Francaise.jpg"/>
+            <div class="Article__accueil_card"><a class="texte_decoration" href="./menu/Menu- a la Francaise.html"> <img class="Article__accueil_card--img" src="images/restaurants/Francaise.jpg"/>
                 <P class="Article__accueil_card_texte--haut">La palette du gout</P>
-                <p class="Article__accueil_card_texte--bas">Ménilmontant</p>
-                <div class="Article_accueil_card--coeur"><i class="fa-regular fa-heart"></i></div>
-            </a></div>
+                <p class="Article__accueil_card_texte--bas">Ménilmontant</p></a>
+                <div class="Article__accueil_card__coeur"><i class="fa-regular fa-heart"></i></div></div>
+            </div>
             
-            <div class="Article__accueil_card"></div><a href="Menu- Le délice des sens.html"> <img class="Article__accueil_card--img" src="images/restaurants/Délice.jpg"/>
+            <div class="Article__accueil_card"><a class="texte_decoration" href="./menu/Menu- Le délice des sens.html"> <img class="Article__accueil_card--img" src="images/restaurants/Délice.jpg"/>
                 <P class="Article__accueil_card_texte--haut">La palette du gout</P>
-                <p class="Article__accueil_card_texte--bas">Ménilmontant</p>
-                <div class="Article_accueil_card--coeur"><i class="fa-regular fa-heart"></i></div>
-            </a></div>
+                <p class="Article__accueil_card_texte--bas">Ménilmontant</p></a>
+                <div class="Article__accueil_card__coeur"><i class="fa-regular fa-heart"></i></div></div>
+            </div>
 
 
         </article>
     </body>
     <footer class="footer">
         <img class="footer_logo" src="images/logo/ohmyfood.png"/>
-        <div class="footer_texte"><i class="fa-solid fa-utensils"></i><p>Proposer un restaurants</p></div>
-        <div class="footer_texte"><i class="fa-solid fa-handshake-angle"></i><p>Devenir partenaire</p></div>
-        <p class="footer_texte">Mention légales</p>
-        <p class="footer_texte">Contact</p>
+        <div class="footer_texte--align"><i class="fa-solid fa-utensils"></i><p class="footer_texte">Proposer un restaurants</p></div>
+        <div class="footer_texte--align"><i class="fa-solid fa-handshake-angle"></i><p class="footer_texte">Devenir partenaire</p></div>
+        <p class="footer_texte_bas">Mention légales</p>
+        <p class="footer_texte_bas">Contact</p>
     </footer>
