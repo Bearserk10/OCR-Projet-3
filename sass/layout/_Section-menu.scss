@@ -53,7 +53,6 @@
 
         }
         &__card{
-            transition: ;
             margin: 10px 0 0 5%;
             width: 90%;
             height: 70px;
@@ -62,10 +61,15 @@
             justify-content: space-between;
             border-radius: 15px;
             overflow: hidden;
+            text-overflow: ellipsis; 
             &__texte{
                 flex-direction: column;
                 margin-left: 10px;
                 margin-top: -5px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+        
                 &--txtbas{
                     margin-top: -15px;
                 }
@@ -82,7 +86,8 @@
                 margin: 25px 10px 0 0;
 
             }
-            &--valide{
+            
+            &__valide{
                 font-size: $icones;
                 color: #FFFFFF;
                 padding-top: 26px;
@@ -90,6 +95,7 @@
                 padding-left: 15px;
                 padding-right: 15px;
                 background-color: $color_tertiaire;
+                display: none;
             }
         }
         
