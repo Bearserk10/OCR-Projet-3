@@ -115,9 +115,14 @@
             margin-top: 40px;
             margin-bottom: 40px;
             border-color: $color_fond;
+            background: linear-gradient($color_primaire,$color_secondaire );
             box-decoration-break: none;
-            @include dégrader-rv-biet;
-            box-shadow: 5px 5px 10px 1px rgba(0, 0, 255, .2);
+            box-shadow: 10px 5px 10px 1px rgba(0, 0, 255, .2);
+            transition: all 1200ms;
+            &:hover {
+            background: linear-gradient(#ec88d0, $color_secondaire);
+            box-shadow: 10px 5px 10px 1px black;
+        }
             &--txt{
                 margin: 0 20px 0 20px;
             }

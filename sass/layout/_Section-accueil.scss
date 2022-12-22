@@ -1,3 +1,24 @@
+.accueil__chargement{
+    margin-left: 2000px;
+    opacity: 0;
+    background-color: darken($color_fond, 100);
+    position: absolute;
+    margin-top: -50px;
+    padding-top: 25%;
+    padding-left: 23%;
+    padding-bottom: 30%;
+    padding-right: 100%;
+    
+    &__txt{
+   
+        font-size: 150px;
+        font-family: 'Shrikhand';
+        color: #FFFFFF;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+    }
+}
 .section__accueil1{
     display: flex;
     flex-direction: column;
@@ -17,13 +38,22 @@
         margin-bottom: 50px;
         border-color: $color_fond;
         box-decoration-break: none;
-        @include dégrader-rv-biet;
-        box-shadow: 5px 5px 10px 1px rgba(0, 0, 255, .2);
+        background: linear-gradient($color_primaire,$color_secondaire );
+        box-shadow: 10px 5px 10px 1px rgba(0, 0, 255, .2);
+        transition: all 1200ms;
+        &:hover {
+            background: linear-gradient(#ec88d0, $color_secondaire);
+            box-shadow: 10px 5px 10px 1px black;
+        }
         &--txt{
             margin: 0 5px 0 5px;
         }
     }
 }
+
+
+        
+        
 
 
 .section__accueil1{
@@ -92,10 +122,23 @@
         background-color: #FFFFFF;
         border-radius:10px; 
         @include align_card_accueil;
-        &__coeur{
+        &__coeur--base{
+            position:relative;
             float: right;
             margin: -30px 20px 0 0;
             font-size: 20px;
+            
+        }    
+        &__coeur--anim{
+            opacity: 0;
+            float: right;
+            margin: -30px 20px 0 0;
+            font-size: 20px;
+            color: $color_primaire;
+            &:hover{
+                animation: slide-top 0.5s cubic-bezier(1,1,0,0) both;
+            }
+            
         }
         &--img{
             width: 100%;
@@ -113,4 +156,4 @@
         
 
     }
-}
+    }
