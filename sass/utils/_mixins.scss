@@ -9,3 +9,10 @@
 @mixin align_card_accueil{
     margin: 15px 0 0 5%;
 }
+
+@mixin heart-full {
+    background-image: $color-gradient;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}

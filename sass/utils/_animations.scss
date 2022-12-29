@@ -72,17 +72,4 @@
     }
 }
 
-@keyframes flash {
-    0%{
-        color: #FFFFFF;
-        text-shadow: 0 0 7px #ffffff;
-    }
-    90%{
-        color: #484848;
-        text-shadow: none;
-    }
-    100%{
-        color: #FFFFFF;
-        text-shadow: 0 0 7px #ffffff;
-    }
-}
+
