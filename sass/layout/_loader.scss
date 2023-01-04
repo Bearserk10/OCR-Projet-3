@@ -36,10 +36,11 @@
 }
 @keyframes loader_end {
     0%{
-        
+        z-index: 3;
         opacity: 1;
     }
     99%{
+        z-index: 3;
         opacity: 1;
     }
     100%{

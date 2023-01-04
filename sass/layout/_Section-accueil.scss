@@ -77,13 +77,27 @@
         margin-right: 20px;
         }
         &_texte{
-            margin-left: 15px;
+            
+            margin-left: 20px;
+            margin-top: 20px;
         }
         
     }
 
 }
+.Article__accueil_card__nouveau{
+    position: relative;
+    right: 3%;
+    bottom: 90%;
+    padding:  5px 15px;
+    float: right;
 
+    z-index: 1;
+    background-color: $color_tertiaire;
+    color: darken($color_tertiaire ,30);
+    font-weight: 600;
+    
+}
 .Article__accueil{
     display: flex;
     background-color: $color_fond;
@@ -105,8 +119,7 @@
             position:relative;
             float: right;
             margin: -30px 20px 0 0;
-            font-size: 20px;
-            
+            font-size: 20px; 
         }    
         &__coeur--anim{
             opacity: 0;
@@ -136,3 +149,10 @@
 
     }
     }
+    .section__accueil2_btn:hover{
+        background-color: lighten($color_primaire, 30);
+        .fa-solid{
+            color: $color_primaire;
+        }
+    }
+
