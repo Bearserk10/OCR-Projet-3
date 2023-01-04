@@ -1,0 +1,123 @@
+
+
+
+
+@media screen and (min-device-width:768px) and (max-device-width:991px){
+    .section__accueil2{
+        &_direction{
+        display: flex;
+        flex-direction: initial;
+        }
+        &_h2{
+            text-align: center;
+            text-decoration:underline;
+        }
+        &_btn{
+            margin: 4% 2% 6% 3%;
+
+        }
+    }
+    .Article__accueil_card
+    {
+        height: 400px;
+        &--img{
+            height: 320px;
+        }
+    }
+    .footer{
+        align-content: center;
+    }
+    .footer_logo{
+        margin-left: 40%;
+    }
+    .footer_texte{
+        &--align{
+        margin-left: 40%;
+        }
+        &_bas{
+            margin-left: 40%;
+        }
+        
+    }
+}
+@media screen and (min-device-width:992px){
+    .section__accueil2{
+        &_direction{
+        display: flex;
+        flex-direction: initial;
+        }
+        &_h2{
+            text-align: center;
+            text-decoration:underline;
+        }
+        &_btn{
+            margin: 4% 2% 6% 3%;
+
+        }
+    }
+    .Article__accueil{
+        flex-direction: initial;
+        justify-content: space-around;
+        &_card{
+            margin-left: 2%;
+            margin-right: 2%;
+            max-width:100%;
+            min-width: 100%;
+            width: auto;
+            height: 340px;
+            &--img{
+                height: 280px;
+            }
+        }
+
+    }
+    .titre_align{
+        display: flex;
+        flex-direction: column;
+    }
+    .card__colone1{
+        
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+    }
+    .card__colone2{
+        margin-top: 75px;
+        width: 45%;
+        display:flex;
+        flex-direction: column;
+    }
+    .footer{
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        &_logo{
+            flex-direction: column;
+        }
+    }
+    .head__menu{
+        &--logo{
+        width: 30%;
+        }
+        &--img{
+            height: 500px;
+        }
+    }
+    .section__menu{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        &__card{
+            width: 100%;
+            margin: 20px 0 0 1%;
+        }
+    }
+    .section__menu__column
+    {
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+}
