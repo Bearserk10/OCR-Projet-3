@@ -34,14 +34,16 @@
             font-size: $icones ;
             margin-top: -50px;
             margin-right: 25px;
+            &:hover{
+                .section__tete__coeur--anim{
+                    animation: slide-top 0.3s cubic-bezier(1,1,0,0) both;}
+                }
             }
             &--anim{
                 margin-top: -25.5px;
-                opacity: 0;
+                opacity: 1;
                 @include heart-full;
-                &:hover{
-                    animation: slide-top 0.3s cubic-bezier(1,1,0,0) both;
-                }
+                
             }
         
     }

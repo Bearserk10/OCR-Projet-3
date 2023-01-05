@@ -3,7 +3,7 @@ $color_secondaire : #FF79DA;
 $color_tertiaire : #99E2D0;
 $color_white : #FFFFFF;
 $color_fond : #eeeeee ;
-$color-gradient : linear-gradient(to bottom right,$color_secondaire ,$color_primaire);
+$color-gradient : linear-gradient($color_primaire,$color_secondaire );
 body{
     display: flex;
     flex-direction: column;
