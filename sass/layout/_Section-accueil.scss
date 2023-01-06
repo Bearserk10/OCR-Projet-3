@@ -59,10 +59,13 @@
         margin-left: 7%;
         margin-bottom: 20px;
         width: 85%;
+        padding: 15px;
         border-radius: 20px;
         box-shadow: 5px 5px 10px 1px rgba(0, 0, 255, .2);
         border-color: #FFFFFF;
+        text-align: center;
         &--align{
+        margin-top: 5px;
         display: flex;
         align-items: center;
         text-align: center;
@@ -71,7 +74,7 @@
         &_Nbronnd{
         padding: 6px 10px;
         @include dégrader-rv-biet ;
-        margin-left: -20px;
+        margin-left: -30px;
         border-radius: 15px;
         color: #FFFFFF;
         margin-right: 20px;
@@ -79,7 +82,7 @@
         &_texte{
             
             margin-left: 20px;
-            margin-top: 20px;
+           
         }
         
     }
@@ -103,6 +106,7 @@
     background-color: $color_fond;
     flex-direction: column;
     padding-bottom: 50px;
+    width: 100%;
     &--h2{
         margin: 40px 0 10px 5%;
     }
@@ -142,12 +146,13 @@
         
 
     }
+}    
     
-    .section__accueil2_btn:hover{
+
+
+.section__accueil2_btn:hover{
         background-color: lighten($color_primaire, 30);
         .icones{
             color: $color_primaire;
         }
     }
-
-}

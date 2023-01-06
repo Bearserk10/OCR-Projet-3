@@ -1,7 +1,10 @@
 .footer{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
     background-color: darken($color_fond, 72);
     &_logo{
-    width: 125px;
+    width: 100px;
     filter:invert(100%);
     margin: 20px 0 0 20px;
     }  
@@ -22,5 +25,5 @@
 
 }
 .footer_texte_align{
-    margin: 0 0 -15px 5px;
+    margin: 0 0 -5px 5px;
 }

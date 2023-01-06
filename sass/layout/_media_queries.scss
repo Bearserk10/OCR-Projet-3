@@ -90,6 +90,7 @@
     .footer{
         height: 200px;
         display: flex;
+        flex-direction: initial;
         align-items: center;
         justify-content: space-around;
         &_logo{
