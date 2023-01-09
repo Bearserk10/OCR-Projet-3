@@ -86,7 +86,9 @@
         }
         
     }
-
+    .card__colone1{
+        padding-top: 40px;
+    }
 }
 .Article__accueil_card__nouveau{
     position: relative;
@@ -101,15 +103,18 @@
     font-weight: 600;
     
 }
+.Article__accueil--h2{
+    margin: 50px 0 10px 5%;
+
+}
 .Article__accueil{
+   padding-top: 30px;
     display: flex;
     background-color: $color_fond;
     flex-direction: column;
     padding-bottom: 50px;
     width: 100%;
-    &--h2{
-        margin: 40px 0 10px 5%;
-    }
+    &--h2{margin: 50px 0 10px 5%;}
     &_card{
         width: auto;
         height: 240px;
