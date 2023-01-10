@@ -114,8 +114,6 @@ body {
   padding: 15px;
   margin-bottom: 50px;
   border-color: #eeeeee;
-  -webkit-box-decoration-break: none;
-          box-decoration-break: none;
   background: linear-gradient(to bottom right, #FF79DA, #9356DC);
   box-shadow: 5px 5px 10px 1px rgba(0, 0, 255, 0.2);
 }

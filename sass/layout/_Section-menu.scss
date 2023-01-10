@@ -129,7 +129,6 @@
             margin-bottom: 40px;
             border-color: $color_fond;
             background: linear-gradient($color_primaire,$color_secondaire );
-            box-decoration-break: none;
             box-shadow: 10px 5px 10px 1px rgba(0, 0, 255, .2);
             transition: all 1200ms;
             &:hover {
